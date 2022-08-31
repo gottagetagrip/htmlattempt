@@ -7,3 +7,12 @@
 .bluetext{
     background:linear-gradient(indigo,green);
 }
+body{
+    display:flex;
+    flex-direction: row;
+
+}
+#asd{
+    display:flex;
+    flex-direction: column;
+}
