@@ -1,3 +1,9 @@
 .datboi{
     background: linear-gradient(#e66465, #9198e5);
 }
+.postal{
+    background: linear-gradient(red, orange, yellow);
+}
+.bluetext{
+    background:linear-gradient(indigo,green);
+}
