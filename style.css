@@ -10,7 +10,7 @@
 body{
     display:flex;
     flex-direction: row;
-    background-image:url(https://gottagetagrip.github.io/htmlattempt/images.jpg);
+    background-image:url("./images.jpg");
 
 }
 #asd{
