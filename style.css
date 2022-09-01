@@ -5,7 +5,12 @@
     background: linear-gradient(red, orange, yellow);
 }
 .bluetext{
-    background:linear-gradient(indigo,green);
+    background:linear-gradient(indigo,lime);
+}
+.times{
+    background-image:url(./seriouscat.jpg);
+    background-size: 61% 100%;
+    
 }
 body{
     display:flex;
@@ -14,6 +19,10 @@ body{
 
 }
 #asd{
+    display:flex;
+    flex-direction: column;
+}
+#qwe{
     display:flex;
     flex-direction: column;
 }
