@@ -5,17 +5,48 @@
     background: linear-gradient(red, orange, yellow);
 }
 .bluetext{
-    background:linear-gradient(indigo,lime);
+    background:linear-gradient(hotpink,turquoise);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .times{
     background-image:url(./seriouscat.jpg);
     background-size: 61% 100%;
-    
+    text-shadow: 3px 3px black;
+}
+
+.rickroll{
+    border:8px dashed #d9ff00;
+}
+.rickroll:visited{
+    color: lime;
+    background-color: transparent;
+    text-decoration: none;
+}
+.rickroll:hover{
+    color:rebeccapurple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.rickroll:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*y*/
+.clippyText{
+    outline: 5px inset red;
+    text-shadow: 3px 3px 2px black;
+    background-color: turquoise;
+    opacity: 0.8;
+}
+.clippyText:hover{
+    opacity: 1;
+    outline: 5px outset yellow;
 }
 body{
     display:flex;
     flex-direction: row;
-    background-image:url("./images.jpg");
+    background-image:url("./spike.jpg");
 
 }
 #asd{
