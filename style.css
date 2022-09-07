@@ -2,7 +2,7 @@
     background: linear-gradient(#e66465, #9198e5);
 }
 .datboi{
-    margin-bottom: 130px;
+    margin-top:20px;
     background-image: url(./shadowdatboi.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -12,8 +12,13 @@
 .datboi:hover{
     opacity: 1;
 }
+.tobey{
+    margin-bottom:25px;
+}
+
 .postal{
     background: linear-gradient(red, orange, yellow);
+    font-size:120%;
 }
 .bluetext{
     background:linear-gradient(hotpink,turquoise);
@@ -23,18 +28,20 @@
 }
 .times{
     background-image:url(./seriouscat.jpg);
-    background-size: 61% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
     text-shadow: 3px 3px black;
 }
 
 .rickroll{
-    font-size: 50px;
+    font-size: 30px;
+    text-align: center;
     border:8px dashed #fffb00;
-    padding-right: 15px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom:10px; 
     text-shadow: 2px 2px 5px red;
     color:turquoise
 }
@@ -54,17 +61,38 @@
     background-color: transparent;
     text-decoration: underline;
 }
-/*y*/
-.clippyText{
+
+.zibonx1{
+    margin-top: 15px;
     margin-left: 25px;
+    transform:scale(1);
+    transition:transform 0.2s;
+}
+.zibonx1:hover{
+
+    transform: scale(1.1);
+}
+.clippyText{
+    margin-left: 5px;
+    transform:scale(1);
+    transition:all 0.2s;
     outline: 5px inset red;
     text-shadow: 3px 3px 2px black;
     background-color: turquoise;
     opacity: 0.8;
+    width: 300px;
 }
 .clippyText:hover{
     opacity: 1;
     outline: 5px outset yellow;
+    transform: scale(1.1);
+    width: 350px;
+}
+.audio1{
+    margin-bottom:5px;
+}
+.dallas{
+    margin-left:10px;
 }
 body{
     display:flex;
@@ -72,11 +100,40 @@ body{
     background-image:url("./spike.jpg");
 
 }
+#clipper{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+#walterdat{
+    display:flex;
+    flex-direction: row;
+}
+#as{
+    display:flex;
+    flex-direction: column;
+}
 #asd{
+    margin-left:15px;
     display:flex;
     flex-direction: column;
 }
 #qwe{
     display:flex;
     flex-direction: column;
+    margin-left: 25px;
+}
+#heisenbergvideo{
+    display: flex;
+    flex-direction: row;
+}
+#audios{
+    margin-top:30px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+}
+#eminem{
+    display:flex;
+    flex-direction: row;
 }
