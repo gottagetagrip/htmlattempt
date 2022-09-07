@@ -3,7 +3,7 @@
 }
 .datboi{
     margin-top:20px;
-    background-image: url(./shadowdatboi.png);
+    background-image: url(./assets/shadowdatboi.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
     color:rgb(56, 55, 55);
 }
 .times{
-    background-image:url(./seriouscat.jpg);
+    background-image:url(./assets/seriouscat.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -97,7 +97,7 @@
 body{
     display:flex;
     flex-direction: row;
-    background-image:url("./spike.jpg");
+    background-image:url("./assets/spike.jpg");
 
 }
 #clipper{
