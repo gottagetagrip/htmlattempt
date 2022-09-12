@@ -1,0 +1,32 @@
+table,th, td {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border:1px solid black;
+    border-collapse:separate;
+    border-style:inset;
+    border-color:blueviolet;
+  }
+th,td{
+    background-color:rgb(82, 206, 179);
+}
+th{
+    text-align:center;
+}
+th:nth-child(even),td:nth-child(even){
+    background-color: hotpink;
+}
+td{
+    vertical-align: top;
+}
+td:hover{
+    background-color:lightgray;
+}
+#dsr:hover{
+    
+}
+#ms:hover{
+
+}
+#bk:hover{
+
+}
