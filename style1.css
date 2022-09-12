@@ -21,12 +21,11 @@ td{
 td:hover{
     background-color:lightgray;
 }
-#dsr:hover{
-    
+#stats{
+    display:flex;
+    flex-direction: row;
 }
-#ms:hover{
-
-}
-#bk:hover{
-
+#images{
+    display:flex;
+    flex-direction: row;
 }
