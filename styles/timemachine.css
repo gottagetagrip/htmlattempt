@@ -1,0 +1,62 @@
+.bg {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/reginaldstimemachine.gif");
+    background-size: 100px 100px;
+    filter: blur(2px) contrast(10);
+    position: absolute;
+    z-index: -100;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#content {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background-color: black;
+    max-width: 90vw;
+    box-shadow: 0px 0px 40px -20px #3e7aff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #3e7aff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .8s ease-in-out;
+    transform: scale(1);
+    display: block;
+    filter: blur(0px);
+    margin-top: 8px;
+}
+
+p {
+    display: block;
+}
+
+a:hover {
+    transform: scale(1.2);
+    filter: blur(1.5px) hue-rotate(360deg);
+}
+
+.mess {
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    opacity: .5;
+}

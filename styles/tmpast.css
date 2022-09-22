@@ -1,0 +1,56 @@
+
+
+body {
+    background-image: url("../assets/galaxy.jpg");
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+
+.marquee {
+    margin-top: 10px;
+    width: 95vw;
+    line-height: 15px;
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+}
+
+.mqanim p {
+    animation: marquee 30s linear infinite;
+}
+
+.mqanimslow p {
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.webring {
+    margin-top: 10px;
+}
+
+#qualifications {
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px 40px;
+}
+
+#qualifications li {
+    font-family: sans-serif;
+}

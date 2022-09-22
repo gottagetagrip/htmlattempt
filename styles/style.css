@@ -1,0 +1,172 @@
+.walter{
+    background: linear-gradient(#e66465, #9198e5);
+}
+.datboi{
+    margin-top:20px;
+    background-image: url("../assets/shadowdatboi.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+#hus{
+    background-color: rgba(100, 100, 100, 0.7);
+    border:blueviolet inset;
+
+}
+.hushus{
+    color:yellow;
+    font-family:'Times New Roman';
+    font-size:30px;
+    text-shadow:3px 3px black;
+}
+.datboi:hover{
+    opacity: 1;
+}
+.tobey{
+    margin-bottom:5px;
+}
+
+.postal{
+    background: linear-gradient(red, orange, yellow);
+    font-size:120%;
+}
+.bluetext{
+    background:linear-gradient(hotpink,turquoise);
+    text-shadow: 2px 2px 5px yellow;
+    font-size:40px;
+    color:rgb(56, 55, 55);
+}
+.times{
+    background-image:url("../assets/seriouscat.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-shadow: 3px 3px black;
+}
+
+.rickroll{
+    font-size: 30px;
+    text-align: center;
+    border:8px dashed #fffb00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom:10px; 
+    text-shadow: 2px 2px 5px red;
+    color:turquoise
+}
+.rickroll:visited{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+.rickroll:hover{
+    color:mediumorchid;
+    background-color: transparent;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px royalblue;
+}
+.rickroll:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.zibonx1{
+    margin-top: 15px;
+    margin-left: 25px;
+    transform:scale(1);
+    transition:transform 0.2s;
+}
+.zibonx1:hover{
+
+    transform: scale(1.1);
+}
+.juggernog{
+    margin-top:30px;
+    margin-left: 30px;
+    transform:scale(1);
+    transition:transform 0.2s;
+}
+.juggernog:hover{
+    transform:scale(1.2);
+}
+.clippyText{
+    margin-left: 5px;
+    transform:scale(1);
+    transition:all 0.2s;
+    outline: 5px inset red;
+    text-shadow: 3px 3px 2px black;
+    background-color: turquoise;
+    opacity: 0.8;
+    width: 300px;
+}
+.clippyText:hover{
+    opacity: 1;
+    outline: 5px outset yellow;
+    transform: scale(1.1);
+    width: 350px;
+}
+.audio1{
+    margin-bottom:5px;
+}
+.dallas{
+    margin-left:10px;
+}
+body{
+    display:flex;
+    flex-direction: row;
+    background-image:url("../assets/spike.jpg");
+
+}
+#clipper{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+#walterdat{
+    display:flex;
+    flex-direction: row;
+}
+#as{
+    display:flex;
+    flex-direction: column;
+}
+#asd{
+    margin-left:15px;
+    display:flex;
+    flex-direction: column;
+}
+#qwe{
+    display:flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+#heisenbergvideo{
+    display: flex;
+    flex-direction: row;
+}
+#audios{
+    margin-top:30px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+}
+#eminem{
+    display:flex;
+    flex-direction: row;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    margin-right: 150px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
