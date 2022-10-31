@@ -15,7 +15,7 @@ body{
 .bg{
     width: 100%;
     height: 100%;
-    background-image: url("/assets/desire.jpg");
+    background-image: url("/assets1/desire.jpg");
     background-size: 150px 150px;
     filter: blur(0.7px) contrast(2);
     position: absolute;
